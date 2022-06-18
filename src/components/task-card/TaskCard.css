@@ -1,0 +1,79 @@
+.card-wrapper {
+  width: 250px;
+  height: 180px;
+  background: #ffffff;
+  box-shadow: 0px 30px 60px rgba(32, 56, 85, 0.15);
+  border-radius: 12px;
+  display: grid;
+  grid-template-rows: max-content auto max-content;
+  padding: 20px;
+  gap: 15px;
+}
+
+.card-wrapper p {
+  margin: 0;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #b9b9b9;
+  font-weight: 700;
+}
+
+.card-content {
+  text-align: left;
+}
+
+.card-content p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #16171d;
+  letter-spacing: -0.02em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.due-date p:first-child {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  color: #999999;
+}
+
+.due-date p:last-child {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.03em;
+  color: #16171d;
+}
+
+.badge {
+  background-color: #f2f2f2;
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+
+.badge p {
+  color: #808080;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
