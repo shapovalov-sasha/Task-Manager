@@ -1,0 +1,15 @@
+.due-date p:first-child {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  color: #999999;
+}
+
+.due-date p:last-child {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.03em;
+  color: #16171d;
+}

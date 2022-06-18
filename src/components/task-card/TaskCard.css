@@ -49,32 +49,3 @@
   justify-content: flex-end;
   align-items: center;
 }
-
-.due-date p:first-child {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: -0.02em;
-  color: #999999;
-}
-
-.due-date p:last-child {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  letter-spacing: -0.03em;
-  color: #16171d;
-}
-
-.badge {
-  background-color: #f2f2f2;
-  padding: 5px 10px;
-  border-radius: 12px;
-}
-
-.badge p {
-  color: #808080;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
-}
