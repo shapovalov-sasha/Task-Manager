@@ -36,7 +36,7 @@ ex.
 The branch starting with `<base>` contains the final code at the end of the video course.
 If you fail to track what the mentor is doing and have lost the thread, you can always check your code with the mentor's version to avoid getting stuck at this step.
 
-When working on a new feature, ensure you're on the right branch. You can find the branch under the video course at [Class SkillBrain](https://class.skillbrain.com/).
+Ensure you're on the right branch when working on a new feature. You can find the branch under the video course at [Class SkillBrain](https://class.skillbrain.com/).
 
 ### Before starting your work
 
