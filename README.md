@@ -1,6 +1,6 @@
 # Task Mangager
 
-Lear React by implementing a Task Manager app alongside with your Frontend mentor as a part of **React** course from [SkillBrain©](https://skillbrain.com/)
+Learn React by implementing a Task Manager app alongside with your Frontend mentor as a part of **React** course from [SkillBrain©](https://skillbrain.com/)
 
 # How to
 
