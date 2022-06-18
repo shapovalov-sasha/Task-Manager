@@ -1,11 +1,11 @@
 import "./App.css";
+import MyFirstComponent from "./components/MyFirstComponent";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello world!</h1>
-        <p>Start learning React!</p>
+        <MyFirstComponent />
       </header>
     </div>
   );
