@@ -20,6 +20,49 @@ When installation is done, start the project in development mode:
 
 `npm start`
 
+# Course structure
+
+### Base code
+
+The project has different branches corresponding to the module covered in video courses, each module having two branches.
+
+- There are two types of branches which start with `[base]` or `[solution]`
+
+ex.
+`[base]-1.0-first-component-in-react` / `[solution]-1.0-first-component-in-react`
+
+### Solution
+
+The branch starting with `[base]` contains the final code at the end of the video course.
+If you fail to track what the mentor is doing and have lost the thread, you can always check your code with the mentor's version to avoid getting stuck at this step.
+
+When working on a new feature, ensure you're on the right branch. You can find the branch under the video course at [Class SkillBrain](https://class.skillbrain.com/).
+
+### Before starting your work
+
+Before starting your work, make sure you're on the right branch, and the version of the code is the last one(as it may change over time).
+
+So at the start of each lesson, you should do the following steps:
+
+- Launch the **VsCode** and open the project directory.
+- Open a new terminal window, `Terminal > New Terminal`.
+- Update the reference to remote branches:
+
+  `git fetch --all`
+
+  > The git fetch command downloads commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on.
+  > **then**
+
+  `git switch <branch name>`
+
+  > The "switch" command allows you to switch your current HEAD branch. It's relatively new (added in Git v2.23) and provides a simpler alternative to the classic "checkout" command.
+
+  **Example:**
+
+  `git fetch --all`
+
+  `git switch [base]-1.0-first-component-in-react`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
