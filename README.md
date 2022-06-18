@@ -26,14 +26,14 @@ When installation is done, start the project in development mode:
 
 The project has different branches corresponding to the module covered in video courses, each module having two branches.
 
-- There are two types of branches which start with `[base]` or `[solution]`
+- There are two types of branches which start with `<base>` or `<solution>`
 
 ex.
-`[base]-1.0-first-component-in-react` / `[solution]-1.0-first-component-in-react`
+`<base>-1.0-first-component-in-react` / `<solution>-1.0-first-component-in-react`
 
 ### Solution
 
-The branch starting with `[base]` contains the final code at the end of the video course.
+The branch starting with `<base>` contains the final code at the end of the video course.
 If you fail to track what the mentor is doing and have lost the thread, you can always check your code with the mentor's version to avoid getting stuck at this step.
 
 When working on a new feature, ensure you're on the right branch. You can find the branch under the video course at [Class SkillBrain](https://class.skillbrain.com/).
@@ -61,7 +61,7 @@ So at the start of each lesson, you should do the following steps:
 
   `git fetch --all`
 
-  `git switch [base]-1.0-first-component-in-react`
+  `git switch <base>-1.0-first-component-in-react`
 
 # Getting Started with Create React App
 
