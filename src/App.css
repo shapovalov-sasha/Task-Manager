@@ -1,8 +1,4 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
+.app-container {
   background-color: #f3f3fb;
   min-height: 100vh;
 }
