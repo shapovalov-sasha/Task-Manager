@@ -62,6 +62,9 @@ So at the start of each lesson, you should do the following steps:
   `git fetch --all`
 
   `git switch "<base>-1.0-first-component-in-react"`
+  
+  or better create a new branch on switch, to keep it clean by adding `-c <your_branch_name>` param to `switch`:
+  `git switch "<base>-1.0-first-component-in-react" my_branch`
 
 # Getting Started with Create React App
 
