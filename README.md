@@ -53,7 +53,7 @@ So at the start of each lesson, you should do the following steps:
   > The git fetch command downloads commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on.
   > **then**
 
-  `git switch <branch name>`
+  `git switch "<branch name>"`
 
   > The "switch" command allows you to switch your current HEAD branch. It's relatively new (added in Git v2.23) and provides a simpler alternative to the classic "checkout" command.
 
@@ -61,7 +61,7 @@ So at the start of each lesson, you should do the following steps:
 
   `git fetch --all`
 
-  `git switch <base>-1.0-first-component-in-react`
+  `git switch "<base>-1.0-first-component-in-react"`
 
 # Getting Started with Create React App
 
