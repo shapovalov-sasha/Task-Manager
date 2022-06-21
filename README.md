@@ -29,7 +29,7 @@ The project has different branches corresponding to the module covered in video 
 - There are two types of branches which start with `<base>` or `<solution>`
 
 ex.
-`<base>-1.0-first-component-in-react` / `<solution>-1.0-first-component-in-react`
+`base/1.0/first-component-in-react` / `solution/1.0/first-component-in-react`
 
 ### Solution
 
@@ -61,10 +61,26 @@ So at the start of each lesson, you should do the following steps:
 
   `git fetch --all`
 
-  `git switch "<base>-1.0-first-component-in-react"`
+  `git switch base/1.0/first-component-in-react`
   
   or better create a new branch on switch, to keep it clean by adding `-c <your_branch_name>` param to `switch`:
-  `git switch "<base>-1.0-first-component-in-react" -c my_branch`
+  `git switch base/1.0/first-component-in-react -c working/1.0/first-component-in-react`
+
+  this command will create a new branch named `working/1.0/first-component-in-react` from `base/1.0/first-component-in-react`
+  This will allow you to work on an independent branch and save your work locally.
+ 
+  **!!! You should commit your changes before switching on another branch, otherwise you will not be able to perfom this action.**
+
+  Example:
+
+- You started with:
+`git switch base/1.0/first-component-in-react -c working/1.0/first-component-in-react`
+- You added changes working on `working/1.0/first-component-in-react` branch.
+- When task is done and you want to switch to another branch: 
+  - stage your changes `git add .`
+  - commit yout changes `git commit -m "first-component-in-react"`
+- Now your working tree is clean and you can switch to another branch.
+- You can return to your branch at any time with checkout command `git checkout working/1.0/first-component-in-react`
 
 # Getting Started with Create React App
 
