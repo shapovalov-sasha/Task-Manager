@@ -74,7 +74,7 @@ So at the start of each lesson, you should do the following steps:
  
  #### Saving your work locally
 
-  🚨**You should commit your changes before switching to another branch. Otherwise, you won't be able to perform this action.**
+🚨 **You should commit your changes before switching to another branch. Otherwise, you won't be able to perform this action.**
 
 💡 **Example:**
 
