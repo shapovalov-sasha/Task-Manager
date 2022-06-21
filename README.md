@@ -2,7 +2,7 @@
 
 Learn React by implementing a Task Manager app alongside your Frontend mentor as a part of **React** course from [SkillBrain©](https://skillbrain.com/)
 
-# Clone and install your project
+# Clone and install the project
 
 Clone this repository in the desired folder:
 
