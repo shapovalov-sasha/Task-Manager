@@ -4,23 +4,23 @@ Learn React by implementing a Task Manager app alongside your Frontend mentor as
 
 # Clone and install the project
 
-Clone this repository in the desired folder:
+1. Clone this repository in the desired folder:
 
-`git clone git@github.com:shapovalov-sasha/Task-Manager.git`
+    `git clone git@github.com:shapovalov-sasha/Task-Manager.git`
 
-Navigate into the project directory:
+2. Navigate into the project directory:
 
-`cd Task-Manager`
+    `cd Task-Manager`
 
-Install by running:
+3. Install by running:
 
-`npm install`
+    `npm install`
 
-> Run this command once - when you're installing  the project. 
+    > Run this command once - when you're installing  the project. 
 
-When installation is completed, you can start the server in development mode:
+4. When installation is completed, you can start the server in development mode:
 
-`npm start`
+    `npm start`
 
 # Course structure and branches
 
