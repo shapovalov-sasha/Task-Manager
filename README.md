@@ -18,7 +18,7 @@ Learn React by implementing a Task Manager app alongside your Frontend mentor as
 
     > Run this command once - when you're installing  the project. 
 
-4. When installation is completed, you can start the server in development mode:
+4. When installation is complete, you can start the server in development mode:
 
     `npm start`
 
@@ -58,14 +58,15 @@ So at the start of each lesson, you should do the following steps:
 
   > 📚 The "switch" command allows you to switch your current HEAD branch. It's relatively new (added in Git v2.23) and provides a simpler alternative to the classic "checkout" command.
 
-  💡**Example:**
+  💡 **Example:**
 
   `git fetch --all`
 
   `git switch base/1.0/first-component-in-react`
   
   or better **create a new branch on switch**, to keep it clean by adding `-c <your_branch_name>` param at the end of `git switch` command:
-  💡**Example:**
+  
+  💡 **Example:**
   `git switch base/1.0/first-component-in-react -c working/1.0/first-component-in-react`
 
   this command will create a new branch named `working/1.0/first-component-in-react` from `base/1.0/first-component-in-react`
@@ -75,7 +76,7 @@ So at the start of each lesson, you should do the following steps:
 
   🚨**You should commit your changes before switching to another branch. Otherwise, you won't be able to perform this action.**
 
- 💡**Example:**
+ 💡 **Example:**
 
 - You started with:
 `git switch base/1.0/first-component-in-react -c working/1.0/first-component-in-react`
