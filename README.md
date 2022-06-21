@@ -2,7 +2,7 @@
 
 Learn React by implementing a Task Manager app alongside your Frontend mentor as a part of **React** course from [SkillBrain©](https://skillbrain.com/)
 
-# Clone and install the project
+# 🛠 Clone and install the project
 
 1. Clone this repository in the desired folder:
 
@@ -24,22 +24,22 @@ Learn React by implementing a Task Manager app alongside your Frontend mentor as
 
 # Course structure and branches
 
-### Base code
+### 💻 Base code
 
 The project has different branches corresponding to the module covered in video courses, each module having **two branches**.
 
 > There are two types of branches which start with `<base>` or `<solution>`
 
-**Example:**
+ **Example:**
 `base/1.0/first-component-in-react` or `solution/1.0/first-component-in-react`
 
-### Solution
+### ✅ Solution
 
 The branch starting with `<base>` contains the mentor's final code at the end of the video course.
 If you fail to track what the mentor is doing and have lost the thread, you can always check your code with the mentor's version to avoid getting stuck at this step.
 
 
-### Before starting your work
+### ❗️Before starting your work
 
  **Ensure you're on the right branch** when working on a new feature. You can find the branch under the each video course at [Class SkillBrain](https://class.skillbrain.com/).
 
@@ -51,12 +51,12 @@ So at the start of each lesson, you should do the following steps:
 
   `git fetch --all`
 
-  > The git fetch command downloads commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on.
+  > 📚 The git fetch command downloads commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on.
   > **then**
 
   `git switch "<branch name>"`
 
-  > The "switch" command allows you to switch your current HEAD branch. It's relatively new (added in Git v2.23) and provides a simpler alternative to the classic "checkout" command.
+  > 📚 The "switch" command allows you to switch your current HEAD branch. It's relatively new (added in Git v2.23) and provides a simpler alternative to the classic "checkout" command.
 
   **Example:**
 
@@ -64,14 +64,16 @@ So at the start of each lesson, you should do the following steps:
 
   `git switch base/1.0/first-component-in-react`
   
-  or better **create a new branch on switch**, to keep it clean by adding `-c <your_branch_name>` param to `git switch` command:
+  or better **create a new branch on switch**, to keep it clean by adding `-c <your_branch_name>` param at the end of `git switch` command:
   **Example:**
   `git switch base/1.0/first-component-in-react -c working/1.0/first-component-in-react`
 
   this command will create a new branch named `working/1.0/first-component-in-react` from `base/1.0/first-component-in-react`
   This will allow you to work on an independent branch and save your work locally.
  
-  **!!! You should commit your changes before switching to another branch. Otherwise, you won't be able to perform this action..**
+ #### 💡 Saving your work locally
+
+  🚨**You should commit your changes before switching to another branch. Otherwise, you won't be able to perform this action.**
 
 **Example:**
 
