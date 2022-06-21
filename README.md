@@ -30,7 +30,7 @@ The project has different branches corresponding to the module covered in video 
 
 > There are two types of branches which start with `<base>` or `<solution>`
 
- **Example:**
+ 💡**Example:**
 `base/1.0/first-component-in-react` or `solution/1.0/first-component-in-react`
 
 ### ✅ Solution
@@ -58,24 +58,24 @@ So at the start of each lesson, you should do the following steps:
 
   > 📚 The "switch" command allows you to switch your current HEAD branch. It's relatively new (added in Git v2.23) and provides a simpler alternative to the classic "checkout" command.
 
-  **Example:**
+  💡**Example:**
 
   `git fetch --all`
 
   `git switch base/1.0/first-component-in-react`
   
   or better **create a new branch on switch**, to keep it clean by adding `-c <your_branch_name>` param at the end of `git switch` command:
-  **Example:**
+  💡**Example:**
   `git switch base/1.0/first-component-in-react -c working/1.0/first-component-in-react`
 
   this command will create a new branch named `working/1.0/first-component-in-react` from `base/1.0/first-component-in-react`
   This will allow you to work on an independent branch and save your work locally.
  
- #### 💡 Saving your work locally
+ #### Saving your work locally
 
   🚨**You should commit your changes before switching to another branch. Otherwise, you won't be able to perform this action.**
 
-**Example:**
+ 💡**Example:**
 
 - You started with:
 `git switch base/1.0/first-component-in-react -c working/1.0/first-component-in-react`
