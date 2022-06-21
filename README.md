@@ -1,14 +1,14 @@
-# Task Mangager
+# Task Manager
 
-Learn React by implementing a Task Manager app alongside with your Frontend mentor as a part of **React** course from [SkillBrain©](https://skillbrain.com/)
+Learn React by implementing a Task Manager app alongside your Frontend mentor as a part of **React** course from [SkillBrain©](https://skillbrain.com/)
 
-# How to
+# Clone and install your project
 
 Clone this repository in the desired folder:
 
 `git clone git@github.com:shapovalov-sasha/Task-Manager.git`
 
-Navigate into project directory:
+Navigate into the project directory:
 
 `cd Task-Manager`
 
@@ -16,37 +16,38 @@ Install by running:
 
 `npm install`
 
-When installation is done, start the project in development mode:
+> Run this command once - when you're installing  the project. 
+
+When installation is completed, you can start the server in development mode:
 
 `npm start`
 
-# Course structure
+# Course structure and branches
 
 ### Base code
 
-The project has different branches corresponding to the module covered in video courses, each module having two branches.
+The project has different branches corresponding to the module covered in video courses, each module having **two branches**.
 
-- There are two types of branches which start with `<base>` or `<solution>`
+> There are two types of branches which start with `<base>` or `<solution>`
 
-ex.
-`base/1.0/first-component-in-react` / `solution/1.0/first-component-in-react`
+**Example:**
+`base/1.0/first-component-in-react` or `solution/1.0/first-component-in-react`
 
 ### Solution
 
-The branch starting with `<base>` contains the final code at the end of the video course.
+The branch starting with `<base>` contains the mentor's final code at the end of the video course.
 If you fail to track what the mentor is doing and have lost the thread, you can always check your code with the mentor's version to avoid getting stuck at this step.
 
-Ensure you're on the right branch when working on a new feature. You can find the branch under the video course at [Class SkillBrain](https://class.skillbrain.com/).
 
 ### Before starting your work
 
-Before starting your work, make sure you're on the right branch, and the version of the code is the last one(as it may change over time).
+ **Ensure you're on the right branch** when working on a new feature. You can find the branch under the each video course at [Class SkillBrain](https://class.skillbrain.com/).
 
 So at the start of each lesson, you should do the following steps:
 
-- Launch the **VsCode** and open the project directory.
-- Open a new terminal window, `Terminal > New Terminal`.
-- Update the reference to remote branches:
+1. Launch the **VsCode** and open the project directory.
+2. Open a new terminal window, `Terminal > New Terminal`.
+3. Update the reference to remote branches:
 
   `git fetch --all`
 
@@ -63,15 +64,16 @@ So at the start of each lesson, you should do the following steps:
 
   `git switch base/1.0/first-component-in-react`
   
-  or better create a new branch on switch, to keep it clean by adding `-c <your_branch_name>` param to `switch`:
+  or better **create a new branch on switch**, to keep it clean by adding `-c <your_branch_name>` param to `git switch` command:
+  **Example:**
   `git switch base/1.0/first-component-in-react -c working/1.0/first-component-in-react`
 
   this command will create a new branch named `working/1.0/first-component-in-react` from `base/1.0/first-component-in-react`
   This will allow you to work on an independent branch and save your work locally.
  
-  **!!! You should commit your changes before switching on another branch, otherwise you will not be able to perfom this action.**
+  **!!! You should commit your changes before switching to another branch. Otherwise, you won't be able to perform this action..**
 
-  Example:
+**Example:**
 
 - You started with:
 `git switch base/1.0/first-component-in-react -c working/1.0/first-component-in-react`
@@ -81,8 +83,12 @@ So at the start of each lesson, you should do the following steps:
   - commit yout changes `git commit -m "first-component-in-react"`
 - Now your working tree is clean and you can switch to another branch.
 - You can return to your branch at any time with checkout command `git checkout working/1.0/first-component-in-react`
+  
+___  
 
-# Getting Started with Create React App
+# Project dependencies and references
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
