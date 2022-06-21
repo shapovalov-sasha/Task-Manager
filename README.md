@@ -30,7 +30,7 @@ The project has different branches corresponding to the module covered in video 
 
 > There are two types of branches which start with `<base>` or `<solution>`
 
- 💡**Example:**
+💡 **Example:**
 `base/1.0/first-component-in-react` or `solution/1.0/first-component-in-react`
 
 ### ✅ Solution
@@ -76,7 +76,7 @@ So at the start of each lesson, you should do the following steps:
 
   🚨**You should commit your changes before switching to another branch. Otherwise, you won't be able to perform this action.**
 
- 💡 **Example:**
+💡 **Example:**
 
 - You started with:
 `git switch base/1.0/first-component-in-react -c working/1.0/first-component-in-react`
