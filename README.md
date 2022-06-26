@@ -18,7 +18,7 @@ Learn React by implementing a Task Manager app alongside your Frontend mentor as
 
     > Run this command once - when you're installing  the project. 
 
-4. When installation is completed, you can start the server in development mode:
+4. When installation is complete, you can start the server in development mode:
 
     `npm start`
 
@@ -30,7 +30,7 @@ The project has different branches corresponding to the module covered in video 
 
 > There are two types of branches which start with `<base>` or `<solution>`
 
- 💡 **Example:**
+💡 **Example:**
 `base/1.0/first-component-in-react` or `solution/1.0/first-component-in-react`
 
 ### ✅ Solution
@@ -65,6 +65,7 @@ So at the start of each lesson, you should do the following steps:
   `git switch base/1.0/first-component-in-react`
   
   or better **create a new branch on switch**, to keep it clean by adding `-c <your_branch_name>` param at the end of `git switch` command:
+  
   💡 **Example:**
   `git switch base/1.0/first-component-in-react -c working/1.0/first-component-in-react`
 
@@ -73,9 +74,9 @@ So at the start of each lesson, you should do the following steps:
  
  #### Saving your work locally
 
-  🚨**You should commit your changes before switching to another branch. Otherwise, you won't be able to perform this action.**
+🚨 **You should commit your changes before switching to another branch. Otherwise, you won't be able to perform this action.**
 
- 💡 **Example:**
+💡 **Example:**
 
 - You started with:
 `git switch base/1.0/first-component-in-react -c working/1.0/first-component-in-react`
