@@ -48,21 +48,6 @@ function App() {
     },
   ];
 
-  // return React.createElement(
-  //   `div`,
-  //   {
-  //     className: "app-container",
-  //   },
-  //   React.createElement(
-  //     "div",
-  //     {
-  //       className: "app-content",
-  //     },
-  //     React.createElement("h3", {}, ""),
-  //     React.createElement(TaskViewer, { taskList: data })
-  //   )
-  // );
-
   return (
     <div className="app-container">
       <div className="app-content">
