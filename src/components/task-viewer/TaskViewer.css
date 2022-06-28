@@ -1,0 +1,14 @@
+.task-viewer-container {
+  background-color: #f3f3fb;
+  border-radius: 50px;
+  padding: 80px;
+  overflow-y: scroll;
+}
+
+.task-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(min-content, max-content);
+  justify-items: center;
+  gap: 40px 50px;
+}
