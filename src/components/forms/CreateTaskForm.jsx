@@ -18,6 +18,12 @@ const CreateTaskForm = () => {
     setTaskDetails(event.target.value);
   };
 
+  const resetForm = () => {
+    setTaskName("");
+    setDueDate("");
+    setTaskDetails("");
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
     const newTask = {
@@ -28,9 +34,7 @@ const CreateTaskForm = () => {
     };
 
     console.log("newTask = ", newTask);
-    setTaskName("");
-    setDueDate("");
-    setTaskDetails("");
+    resetForm();
   };
 
   return (
