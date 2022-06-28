@@ -3,7 +3,7 @@ import "./CreateTaskForm.css";
 
 const CreateTaskForm = () => {
   const [taskName, setTaskName] = useState("");
-  const [dueDate, setDueDate] = useState();
+  const [dueDate, setDueDate] = useState("");
   const [taskDetails, setTaskDetails] = useState("");
 
   const handleNameChange = (event) => {
@@ -28,6 +28,9 @@ const CreateTaskForm = () => {
     };
 
     console.log("newTask = ", newTask);
+    setTaskName("");
+    setDueDate("");
+    setTaskDetails("");
   };
 
   return (
@@ -36,6 +39,7 @@ const CreateTaskForm = () => {
         <div className="form-row">
           <label className="label-md">Task Name</label>
           <input
+            value={taskName}
             name="taskName"
             onChange={handleNameChange}
             className="input-primary"
@@ -46,6 +50,7 @@ const CreateTaskForm = () => {
         <div className="form-row">
           <label className="label-md">Due Date</label>
           <input
+            value={dueDate}
             name="dueDate"
             onChange={handleDateChange}
             className="input-primary"
@@ -56,6 +61,7 @@ const CreateTaskForm = () => {
         <div className="form-row">
           <label className="label-md">Task Details</label>
           <textarea
+            value={taskDetails}
             name="taskDetails"
             onChange={handleDetailsChange}
             className="input-primary"
