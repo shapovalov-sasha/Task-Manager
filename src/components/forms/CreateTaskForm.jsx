@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./CreateTaskForm.css";
 
-const CreateTaskForm = () => {
+const CreateTaskForm = (props) => {
   const [taskName, setTaskName] = useState("");
   const [dueDate, setDueDate] = useState("");
   const [taskDetails, setTaskDetails] = useState("");
@@ -33,6 +33,7 @@ const CreateTaskForm = () => {
       status: "To do",
     };
 
+    props.addNewTask(newTask);
     console.log("newTask = ", newTask);
     resetForm();
   };
