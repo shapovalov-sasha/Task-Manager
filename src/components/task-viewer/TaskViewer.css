@@ -1,8 +1,14 @@
 .task-viewer-container {
   background-color: #f3f3fb;
   border-radius: 50px;
-  padding: 80px;
-  overflow-y: scroll;
+  padding: 40px;
+  overflow: auto;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.task-viewer-container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 .task-list-container {
