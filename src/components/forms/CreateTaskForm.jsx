@@ -36,7 +36,6 @@ const CreateTaskForm = () => {
         <div className="form-row">
           <label className="label-md">Task Name</label>
           <input
-            name="taskName"
             onChange={handleNameChange}
             className="input-primary"
             type="text"
@@ -46,7 +45,6 @@ const CreateTaskForm = () => {
         <div className="form-row">
           <label className="label-md">Due Date</label>
           <input
-            name="dueDate"
             onChange={handleDateChange}
             className="input-primary"
             type="date"
@@ -56,7 +54,6 @@ const CreateTaskForm = () => {
         <div className="form-row">
           <label className="label-md">Task Details</label>
           <textarea
-            name="taskDetails"
             onChange={handleDetailsChange}
             className="input-primary"
             cols="30"
