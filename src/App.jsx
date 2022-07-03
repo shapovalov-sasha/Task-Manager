@@ -51,7 +51,6 @@ const data = [
 
 function App() {
   const [taskList, setTaskList] = useState(data);
-  const [isOpen, setIsOpen] = useState(false);
 
   const onNewTaskAdd = (newTask) => {
     setTaskList((prevState) => [
@@ -62,26 +61,13 @@ function App() {
         id: "T-" + prevState.length + 1,
       },
     ]);
-    setIsOpen(false);
-  };
-
-  const openModal = () => {
-    setIsOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsOpen(false);
   };
 
   return (
     <div className="app-container">
       <div className="app-content">
-        <TaskViewer onCreateClick={openModal} taskList={taskList} />
+        <TaskViewer onNewTaskAdd={onNewTaskAdd} taskList={taskList} />
       </div>
-      <Modal onClose={closeModal} isOpen={isOpen}>
-        <h3>Create task</h3>
-        <CreateTaskForm addNewTask={onNewTaskAdd} />
-      </Modal>
     </div>
   );
 }

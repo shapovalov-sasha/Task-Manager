@@ -19,19 +19,3 @@
   justify-content: space-between;
   gap: 40px 50px;
 }
-
-.control-panel-container {
-  padding: 20px 0 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.view-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 38px;
-  letter-spacing: -0.02em;
-  color: #101c56;
-}
