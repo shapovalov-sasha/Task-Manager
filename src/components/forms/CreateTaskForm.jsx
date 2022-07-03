@@ -30,7 +30,7 @@ const CreateTaskForm = (props) => {
       name: taskName,
       dueDate: dueDate,
       taskDetails: taskDetails,
-      status: "To do",
+      status: "Todo",
     };
 
     props.addNewTask(newTask);
