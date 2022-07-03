@@ -16,8 +16,8 @@ const Modal = (props) => {
     setIsOpen(props.isOpen);
   }, [props.isOpen]);
 
-  return !isOpen ? null : (
-    <div className="modal-wrapper">
+  return (
+    <div className={`${isOpen ? "modal-wrapper" : "modal-hidden"}`}>
       <div className="modal-content">
         <div className="card-xl">
           <div onClick={closeModal} className="close-button">
