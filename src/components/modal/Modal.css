@@ -12,6 +12,11 @@
   z-index: 1000;
 }
 
+.modal-hidden {
+  display: none;
+  overflow: hidden;
+}
+
 .modal-content {
   z-index: 1001;
   width: 40%;
