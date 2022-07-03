@@ -52,8 +52,6 @@ function App() {
   const [taskList, setTaskList] = useState(data);
 
   const onNewTaskAdd = (newTask) => {
-    console.log("task from APP.js", newTask);
-
     setTaskList((prevState) => [
       ...prevState,
       {
