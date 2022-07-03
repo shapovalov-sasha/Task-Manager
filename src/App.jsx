@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import "./App.css";
 import TaskViewer from "./components/task-viewer/TaskViewer";
-import CreateTaskForm from "./components/forms/CreateTaskForm";
-import Modal from "./components/modal/Modal";
+import "./App.css";
 
 const data = [
   {
