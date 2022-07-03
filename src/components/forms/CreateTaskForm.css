@@ -37,6 +37,20 @@ textarea.input-primary {
   border: none;
   cursor: pointer;
   font-family: "Sen", sans-serif;
+  white-space: nowrap;
+}
+
+.btn-sm {
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.btn-md {
+  padding: 15px 40px;
+}
+
+.btn-xl {
+  padding: 20px 60px;
 }
 
 .button-primary:hover {
