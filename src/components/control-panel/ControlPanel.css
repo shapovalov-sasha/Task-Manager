@@ -1,8 +1,5 @@
 .control-panel-container {
   padding: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
 }
 
 .view-title {
@@ -12,4 +9,10 @@
   line-height: 38px;
   letter-spacing: -0.02em;
   color: #101c56;
+}
+
+.task-details-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
