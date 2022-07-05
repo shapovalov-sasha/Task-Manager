@@ -7,9 +7,7 @@
 
 .app-content {
   flex: 1;
-  display: grid;
-  grid-template-columns: auto minmax(25%, 300px);
-  gap: 40px;
+  display: flex;
 }
 
 .card-xl {

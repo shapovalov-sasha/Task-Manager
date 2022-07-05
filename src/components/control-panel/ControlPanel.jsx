@@ -25,7 +25,7 @@ const ControlPanel = (props) => {
         <h3 className="view-title">Tasks</h3>
         <p className="subtitle">Your tasks in your space.</p>
       </div>
-      <button onClick={openModal} className="button-primary">
+      <button onClick={openModal} className="button-primary btn-md">
         Create Task
       </button>
       <Modal onClose={closeModal} isOpen={isOpen}>
