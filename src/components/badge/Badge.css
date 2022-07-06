@@ -2,11 +2,32 @@
   background-color: #f2f2f2;
   padding: 5px 10px;
   border-radius: 12px;
+  color: #808080;
 }
 
 .badge p {
-  color: #808080;
   font-weight: 700;
   font-size: 12px;
   line-height: 14px;
+  color: inherit;
+}
+
+.badge-todo {
+  background-color: #f2f2f2;
+  color: #808080;
+}
+
+.badge-in-progress {
+  background-color: #f2f4fd;
+  color: #3754db;
+}
+
+.badge-pending {
+  background-color: #fffdf5;
+  color: #df9a00;
+}
+
+.badge-completed {
+  background-color: #f0fff9;
+  color: #00c271;
 }

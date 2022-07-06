@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./Modal.css";
 import CloseIcon from "../../assets/icons/close.png";
+import "./Modal.css";
 
 const Modal = (props) => {
   const [isOpen, setIsOpen] = useState(false);
