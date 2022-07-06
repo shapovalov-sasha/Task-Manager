@@ -18,7 +18,7 @@ const data = [
   {
     id: "T-3",
     name: "13 Create a Design System for Enum Workspace.",
-    status: "Complete",
+    status: "Completed",
     dueDate: new Date(2022, 6, 13),
   },
   {
@@ -30,13 +30,13 @@ const data = [
   {
     id: "T-5",
     name: "15 Create a Design System for Enum Workspace.",
-    status: "Complete",
+    status: "Completed",
     dueDate: new Date(2022, 6, 13),
   },
   {
     id: "T-6",
     name: "Create a Design System for Enum Workspace.",
-    status: "Todo",
+    status: "Pending",
     dueDate: new Date(2022, 5, 23),
   },
   {
