@@ -12,22 +12,27 @@
   color: inherit;
 }
 
-.badge-todo {
+.grey {
   background-color: #f2f2f2;
   color: #808080;
 }
 
-.badge-in-progress {
+.black {
+  background-color: #e2e2e2;
+  color: #16171d;
+}
+
+.blue {
   background-color: #f2f4fd;
   color: #3754db;
 }
 
-.badge-pending {
+.orange {
   background-color: #fffdf5;
   color: #df9a00;
 }
 
-.badge-completed {
+.green {
   background-color: #f0fff9;
   color: #00c271;
 }
