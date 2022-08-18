@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import TaskViewer from "./components/task-viewer/TaskViewer";
-import "./App.css";
+import "../App.css";
 
-const data = [
+let data = [
   {
     id: "T-1",
     name: "Create a Design System for Enum Workspace.",
@@ -48,7 +48,7 @@ const data = [
 ];
 
 function App() {
-  const [taskList, setTaskList] = useState(data);
+  const [taskList, setTaskList] = useState(MOCK_DATA);
 
   const onNewTaskAdd = (newTask) => {
     setTaskList((prevState) => [

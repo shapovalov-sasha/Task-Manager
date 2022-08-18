@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./CreateTaskForm.css";
 
+const newTask = "One more Error";
+
 const CreateTaskForm = (props) => {
   const [taskName, setTaskName] = useState("");
   const [dueDate, setDueDate] = useState("");
@@ -26,12 +28,12 @@ const CreateTaskForm = (props) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const newTask = {
-      name: taskName,
-      dueDate: dueDate,
-      taskDetails: taskDetails,
-      status: "Todo",
-    };
+    // const newTask = {
+    //   name: taskName,
+    //   dueDate: dueDate,
+    //   taskDetails: taskDetails,
+    //   status: "Todo",
+    // };
 
     props.addNewTask(newTask);
     console.log("newTask = ", newTask);
