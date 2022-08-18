@@ -1,7 +1,7 @@
 import React from "react";
 import "./Badge.css";
 
-const BADGE_COLORS = ["grey", "black", "purple", "orange", "black"];
+const BADGE_COLORS = ["grey", "black", "blue", "orange", "black", "green"];
 
 const Badge = (props) => {
   const badgeColor = BADGE_COLORS.includes(props.color) ? props.color : "grey";
