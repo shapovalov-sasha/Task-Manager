@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.card-header p {
+.card-header > p {
   font-size: 14px;
   line-height: 17px;
   color: #b9b9b9;

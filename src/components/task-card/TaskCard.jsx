@@ -1,7 +1,7 @@
 import React from "react";
-import "./TaskCard.css";
-import Badge from "../components/badge/Badge";
+import Badge from "../badge/Badge";
 import DateContainer from "../date-container/DateContainer";
+import "./TaskCard.css";
 
 function TaskCard(props) {
   const getBadgeStyle = () => {
