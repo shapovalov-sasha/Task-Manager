@@ -22,6 +22,24 @@
   font-family: "Sen", sans-serif;
 }
 
+input.error,
+textarea.error {
+  border-color: #fb151a;
+  background-color: #fffafa;
+}
+
+textarea.input-primary {
+  resize: none;
+}
+
+p.error-message {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #b80020;
+}
+
 textarea.input-primary {
   resize: none;
 }
@@ -38,6 +56,10 @@ textarea.input-primary {
   cursor: pointer;
   font-family: "Sen", sans-serif;
   white-space: nowrap;
+}
+
+.button-primary:disabled {
+  opacity: 0.2;
 }
 
 .btn-sm {
