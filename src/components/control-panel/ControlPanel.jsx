@@ -1,7 +1,7 @@
 import React from "react";
-import "./ControlPanel.css";
 import Modal from "../modal/Modal";
 import CreateTaskForm from "../forms/CreateTaskForm";
+import "./ControlPanel.css";
 
 const ControlPanel = (props) => {
   const { isOpen, setIsOpen, onNewTaskAdd, taskList } = props;

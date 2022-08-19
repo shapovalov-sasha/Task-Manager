@@ -34,7 +34,6 @@ const CreateTaskForm = (props) => {
     };
 
     props.addNewTask(newTask);
-    console.log("newTask = ", newTask);
     resetForm();
   };
 
