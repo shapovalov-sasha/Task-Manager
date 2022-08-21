@@ -12,6 +12,11 @@
   color: #2c2e3a;
 }
 
+input,
+textarea {
+  outline: none;
+}
+
 .input-primary {
   margin: 5px 0;
   padding: 16px;
@@ -38,6 +43,7 @@ p.error-message {
   font-size: 14px;
   line-height: 14px;
   color: #b80020;
+  height: 14px;
 }
 
 textarea.input-primary {
