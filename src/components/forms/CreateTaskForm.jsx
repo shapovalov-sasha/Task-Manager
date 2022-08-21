@@ -5,6 +5,12 @@ const CreateTaskForm = (props) => {
   const [taskName, setTaskName] = useState("");
   const [dueDate, setDueDate] = useState("");
   const [taskDetails, setTaskDetails] = useState("");
+  const [formValidation, setFormValidation] = useState({
+    taskName: "",
+    dueDate: "",
+    taskDetails: "",
+    isValid: true,
+  });
 
   const handleNameChange = (event) => {
     setTaskName(event.target.value);
@@ -36,7 +42,6 @@ const CreateTaskForm = (props) => {
     props.addNewTask(newTask);
     resetForm();
   };
-
   return (
     <div>
       <form onSubmit={handleSubmit}>
@@ -49,6 +54,7 @@ const CreateTaskForm = (props) => {
             className="input-primary"
             type="text"
           />
+          <p className="error-message"></p>
         </div>
 
         <div className="form-row">
@@ -60,6 +66,7 @@ const CreateTaskForm = (props) => {
             className="input-primary"
             type="date"
           />
+          <p className="error-message"></p>
         </div>
 
         <div className="form-row">
@@ -72,9 +79,14 @@ const CreateTaskForm = (props) => {
             cols="30"
             rows="10"
           ></textarea>
+          <p className="error-message"></p>
         </div>
 
-        <button className="button-primary" type="submit">
+        <button
+          disabled={!formValidation.isValid}
+          className="button-primary"
+          type="submit"
+        >
           Create Task
         </button>
       </form>
