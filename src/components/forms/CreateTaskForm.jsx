@@ -100,9 +100,10 @@ const CreateTaskForm = (props) => {
             value={taskName}
             name="taskName"
             onChange={handleNameChange}
-            className={clsx("input-primary", {
-              ["error"]: formValidation.taskName,
-            })}
+            className={clsx(
+              "input-primary",
+              formValidation.taskName && "error"
+            )}
             type="text"
           />
           <p className="error-message">{formValidation.taskName}</p>
@@ -114,9 +115,7 @@ const CreateTaskForm = (props) => {
             value={dueDate}
             name="dueDate"
             onChange={handleDateChange}
-            className={clsx("input-primary", {
-              ["error"]: formValidation.dueDate,
-            })}
+            className={clsx("input-primary", formValidation.dueDate && "error")}
             type="date"
           />
           <p className="error-message">{formValidation.dueDate}</p>
@@ -128,9 +127,10 @@ const CreateTaskForm = (props) => {
             value={taskDetails}
             name="taskDetails"
             onChange={handleDetailsChange}
-            className={clsx("input-primary", {
-              ["error"]: formValidation.taskDetails,
-            })}
+            className={clsx(
+              "input-primary",
+              formValidation.taskDetails && "error"
+            )}
             cols="30"
             rows="10"
           ></textarea>
