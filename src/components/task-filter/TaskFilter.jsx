@@ -14,7 +14,7 @@ const TaskFilter = () => {
   return (
     <div className="filter-container">
       {taskFilterItems.map((item, index) => (
-        <FilterItem active={index === 3} key={item} label={item} count={3} />
+        <FilterItem active={index === 0} key={item} label={item} count={3} />
       ))}
     </div>
   );

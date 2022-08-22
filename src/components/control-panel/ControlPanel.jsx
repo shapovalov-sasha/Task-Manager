@@ -2,6 +2,7 @@ import React from "react";
 import "./ControlPanel.css";
 import Modal from "../modal/Modal";
 import CreateTaskForm from "../forms/CreateTaskForm";
+import TaskFilter from "../task-filter/TaskFilter";
 import "./ControlPanel.css";
 
 const ControlPanel = (props) => {

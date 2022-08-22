@@ -8,7 +8,7 @@ const FilterItem = (props) => {
       <p className={`filter-option ${props.active && "active"}`}>
         {props.label}
       </p>
-      <Badge status={props.count} />
+      <Badge label={props.count} color="black" />
     </div>
   );
 };
