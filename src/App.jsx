@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, createContext } from "react";
 import TaskViewer from "./components/task-viewer/TaskViewer";
 import "./App.css";
 
@@ -47,6 +47,8 @@ const data = [
   },
 ];
 
+export const TodoContext = createContext();
+
 function App() {
   const [taskList, setTaskList] = useState(data);
 
@@ -64,7 +66,9 @@ function App() {
   return (
     <div className="app-container">
       <div className="app-content">
-        <TaskViewer onNewTaskAdd={onNewTaskAdd} taskList={taskList} />
+        <TodoContext.Provider value={taskList}>
+          <TaskViewer onNewTaskAdd={onNewTaskAdd} taskList={taskList} />
+        </TodoContext.Provider>
       </div>
     </div>
   );
